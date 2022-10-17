@@ -4,4 +4,4 @@ from django.shortcuts import render
 
 def index(request):
     #return HttpResponse("Hello, world. You're at the gallery index.")\
-    return render(request, 'gallery/index.html')
+    return render(request, 'gallery/index.html', {})
